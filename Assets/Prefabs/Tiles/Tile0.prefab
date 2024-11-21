@@ -232,8 +232,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
-    _objectReferences: []
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: a967e84cbe3f95d4f90451793f3abe9e, type: 2}
 --- !u!114 &-7959339069828751755
 MonoBehaviour:
   m_ObjectHideFlags: 0
