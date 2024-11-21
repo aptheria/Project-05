@@ -42,7 +42,7 @@ Material:
     - _Cutoff: 0.5
     - _FadeEnd: 10
     - _FadeStart: 2
-    - _HDRMultiplier: 3.11
+    - _HDRMultiplier: 4
     - _InvFade: 1.68
     - _LightCount: 0
     - _LightingMode: 1

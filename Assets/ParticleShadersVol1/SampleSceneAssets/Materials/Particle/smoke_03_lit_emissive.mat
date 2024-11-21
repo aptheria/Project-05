@@ -82,7 +82,7 @@ Material:
     - _FadeEnd: 10
     - _FadeStart: 2
     - _Glossiness: 0.5
-    - _HDRMultiplier: 17.46
+    - _HDRMultiplier: 2
     - _InvFade: 2.39
     - _LightCount: 0
     - _LightingMode: 1
