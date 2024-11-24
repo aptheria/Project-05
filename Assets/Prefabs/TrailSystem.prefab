@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2250621274531114252}
   - component: {fileID: 2739582801081480797}
   - component: {fileID: 3044917190049776900}
-  - component: {fileID: 4772006282575231513}
   m_Layer: 3
   m_Name: TrailSystem
   m_TagString: Untagged
@@ -70,23 +69,6 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 4223848ea4f20a249a5896fb67416182, type: 2}
---- !u!114 &4772006282575231513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1371805462622846003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 281bd67b16e53364a8735373a4d34d35, type: 2}
-  isGlobal: 1
-  blendDistance: 0
-  weight: 1
-  priority: 0
 --- !u!1 &4197569010666799629
 GameObject:
   m_ObjectHideFlags: 0
@@ -98,6 +80,7 @@ GameObject:
   - component: {fileID: 3413098290051645381}
   - component: {fileID: 499843145623719307}
   - component: {fileID: 1394487183530825805}
+  - component: {fileID: 2923760287329747170}
   m_Layer: 3
   m_Name: Trail
   m_TagString: Untagged
@@ -248,3 +231,20 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!114 &2923760287329747170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4197569010666799629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: a7ddea6b2eb2a94408342a523192e0c6, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
