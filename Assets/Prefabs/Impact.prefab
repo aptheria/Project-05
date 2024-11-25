@@ -9496,10 +9496,22 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"BulletFlyAudio","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BulletImpactAudio","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BulletFlyClips","value":{"$content":[2,3],"$type":"System.Collections.Generic.List`1[[UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"BulletImpactClips","value":{"$content":[4,5,6,7],"$type":"System.Collections.Generic.List`1[[UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2605541060528327042}
     - {fileID: 6749608636429315945}
+    - {fileID: 8300000, guid: 329869d9322fb3245a5afe023a4047b8, type: 3}
+    - {fileID: 8300000, guid: f299bfbc017ee2148b12c01e7ac502fa, type: 3}
+    - {fileID: 8300000, guid: 8ec49c36e08b6a444bb057abd00bbfa2, type: 3}
+    - {fileID: 8300000, guid: 2e244570d36bffa4b9d8a3ad02b0557a, type: 3}
+    - {fileID: 8300000, guid: 7699a690d305f3647bf0b5e8f1849bbd, type: 3}
+    - {fileID: 8300000, guid: b5632ce3df3664749811e3c1615fa3a6, type: 3}
 --- !u!114 &6096466358609595673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9557,10 +9569,10 @@ AudioSource:
   m_GameObject: {fileID: 2605541060528327042}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 524698eccc5a2ba4c980f461b42ba27b, type: 2}
   m_audioClip: {fileID: 8300000, guid: 329869d9322fb3245a5afe023a4047b8, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -9685,10 +9697,10 @@ AudioSource:
   m_GameObject: {fileID: 6749608636429315945}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 524698eccc5a2ba4c980f461b42ba27b, type: 2}
   m_audioClip: {fileID: 8300000, guid: 8ec49c36e08b6a444bb057abd00bbfa2, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -9696,8 +9708,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 10
-  MaxDistance: 500
+  MinDistance: 1
+  MaxDistance: 50
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -9707,23 +9719,32 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
+      time: 0.01
       value: 1
       inSlope: 0
-      outSlope: 0
-      tangentMode: 0
+      outSlope: -2.2222598
+      tangentMode: 69
       weightedMode: 0
-      inWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.31318974
+      value: 0.32623363
+      inSlope: -2.2222598
+      outSlope: -0.47499818
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.18574423
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 1
       value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
+      inSlope: -0.47499818
+      outSlope: -1.010101
+      tangentMode: 69
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4

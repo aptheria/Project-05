@@ -120,7 +120,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 2.018e-42, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 3.92e-43, y: 7.1e-44, z: 0, w: 1.0324739e+31}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -384,7 +384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sharedProfile: {fileID: 11400000, guid: ded75666c08556a469f5eb9bf86b95cf, type: 2}
   isGlobal: 0
-  blendDistance: 10
+  blendDistance: 5
   weight: 1
   priority: 0
 --- !u!65 &3776047219249238737
@@ -862,7 +862,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: NaN, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: NaN, y: 3.4e-44, z: 0, w: 6.1e-42}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
